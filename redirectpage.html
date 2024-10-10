@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./practshii2.css">
+    
+    <script>
+        
+        function playAudio() {
+            var audio = document.getElementById("MSI");
+            
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+        function restartAudio() {
+            var audio = document.getElementById("MSI");
+            audio.currentTime = 0;
+            audio.pause()
+        }
+
+    </script>
+
+    <title>Lyrics</title>
+</head>
+<body>    
+
+
+    <b>CLICK KETCHUP TO PLAY SONG!!</b> <br>
+    <small  text-align: center;> Click again 2 pause ^_^</small>
+
+    <center>
+
+        <u><h1 style="font-size:4vw">3S - Mindless Self Indulgence</h1></u>
+        <b style="font-size: 40px">Verse</b>
+        <p style="font-size: 25px;">I'm the one who's so in love with you.<br>
+             I'm the one who's so in love with you!<br>
+             Man, I'm gonna fill you all the way, uh<br>
+             Man, I'm gonna screw you all the way, uh<br></p>
+        
+         <b style="font-size: 40px">chorus</b>
+         <p style="font-size: 25px;">'Cause I'm stupid, sadistic and suicidal<br>
+             Hard to accept<br>
+             And that's the whole idea behind my motivations<br>
+             Now is the part for the radio station<br></p>
+
+         <b style="font-size: 40px">verse</b>
+         <p style="font-size: 25px;">I'm the one who's so in love with you<br>
+            I'm the one who's so in love with you<br>
+            Man, I'm gonna fill you all the way, uh<br>
+            Man, I'm gonna screw you all the way, uh<br></p>
+
+        <b style="font-size: 40px">chorus</b>
+        <p style="font-size: 25px;">'Cause I'm stupid, sadistic and suicidal<br>
+            Hard to accept<br>
+            And that's the whole idea behind my motivations<br>
+            Now is the part for the radio station<br></p>
+
+        <b style="font-size: 40px">hook</b>
+        <p style="font-size: 25px;">(Come on) doo-doo, doo-doo<br>
+            (Say that again) doo-doo, doo-doo, doo<br>
+            (Yeah) doo-doo, doo-doo<br>
+            This is what you are, baby, this is what you are<br>
+            And this is what you want, baby, this is what you want<br></p>
+
+        <b style="font-size: 40px">hook</b>
+        <p style="font-size: 25px;">Ooh, ah, ooh-ah, ooh, ooh, ah<br>
+            Ooh-ah, ooh, ah, ooh-ah, ooh, ooh, ah<br>
+            Ooh-ah, ooh, ah, ooh-ah, ooh, ooh, ah<br>
+            Ooh-ah, ooh, ah, ooh-ah, ooh, ooh, ah<br></p>
+
+        <b style="font-size: 40px">bridge</b>
+        <p style="font-size: 25px;">Yo, I really mean it this time (ah)<br>
+            Really mean it this time (ah)<br>
+            Really mean it this time (ah)<br>
+            I really mean it this time (ah)<br>
+            Really mean it this time (ah)<br>
+            Really mean it this time (ah)<br>
+            Really mean it this time (ah)<br>
+            I really mean it this time<br></p>
+
+        <b style="font-size: 40px">chorus</b>
+        <p style="font-size: 25px;">'Cause I'm stupid, sadistic and suicidal<br>
+            Hard to accept<br>
+            And that's the whole idea behind my motivations<br>
+            Now is the part for the radio station<br></p>
+
+        <b style="font-size: 40px">chorus</b>
+        <p style="font-size: 25px;">'Cause I'm stupid, sadistic and suicidal<br>
+            Hard to accept<br>
+            And that's the whole idea behind my motivations<br>
+            Now is the part for the radio station<br></p>
+            <br>
+            <br>
+            <a href="https://www.musixmatch.com/lyrics/Mindless-Self-Indulgence/3S-1">Lyrics</a> <br> <a href="./codeprac.html">go back</a> <br> <a href="./randomredirect.html">sigmers :O</a>
+
+
+    </center>
+
+    
+    <button type="button"  onclick="playAudio()" class="audbutton">
+        <img src="./test_images/shplatta2.png" alt="splatter"
+        width="150" 
+     height="150" />
+    </button>
+
+    <button type="button" onclick="restartAudio()" class="restartMSI">
+        Reset Audio
+    </button>
+    
+    <audio id="MSI">
+        <source src="./3S MSI.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    background-color: #e9e9ed;
+  }
+
+.audbutton { 
+    border-width: 0;
+    position: absolute; 
+   top: 52px;
+   left: 5px;
+}
+
+.audbutton:hover {background-color: #08080f00}
+
+.restartMSI {
+    size: 60px 80px;
+    padding: 2px 12px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #1c1a25;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #3b0505;
+  }
+   
+  .restartMSI:hover {background-color: #161625}
+   
+  .restartMSI:active {
+    background-color: #52120a;
+    box-shadow: 0 5px #1d1111;
+    transform: translateY(4px);
+  }
+
+  .restartMSI { 
+    border-width: 0;
+    position: absolute; 
+   top: 168px;
+   left: 120px;
+}

@@ -1,0 +1,33 @@
+.style{
+  background-image: url("./test_images/paperland.jpg");
+  background-repeat:repeat;
+  width: auto;
+  }
+
+.button {
+    size: 100px 100px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #151220;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #1f0202;
+  }
+   
+  .button:hover {background-color: #08080f}
+   
+  .button:active {
+    background-color: #61160c;
+    box-shadow: 0 5px #1d1111;
+    transform: translateY(4px);
+  }
+
+  .fonta{
+    font-size: 50px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
